@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Naira Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="form-container">
+    <h1>Naira Converter</h1>
+    <form class="form-inline test">
+        <div class="form-group mx-sm-3 mb-2 spacing">
+            <label for="inputPassword2" class="testing">Cost Price of Item:</label>
+            <input type="number" class="form-control firstInput" id="inputPassword2" placeholder="Cost Price of Item">
+          </div>
+
+        <div class="form-group mx-sm-3 mb-2 spacing">
+          <label for="inputPassword2" class="testing">Amount Received: </label>
+          <input type="number" class="form-control secondInput" id="inputPassword2" placeholder="Amount Received">
+        </div>
+        <button type="button" class="btn btn-primary mx-sm-3 mb-2 but-move" id="submit-button">👉 Calculate Change 👈</button>
+        
+      </form>
+</div>
+
+<div class="answer-container" id="answer-container">
+    <div class="answer-div first">
+        <h1 class="bolden"> Your Change is:</h1>
+<p id="answer-0"> </p>
+</div>
+
+<div class="answer-div second">
+<h1 class="bolden"> which are: </h1>
+<p id="answer-1" class="bolden"></p>
+</div>
+
+<div class="answer-div third">
+<h1 class="bolden"> Final BreakDown:</h1>
+<p id="answer-2"></p>
+</div>
+
+
+
+</div>
+
+
+
+</body>
+
+
+<script src="script.js"></script>
+</html>
